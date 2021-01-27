@@ -13,5 +13,5 @@
 
 def prime?(number)
   #if number is >= 2 AND 2 can be divided by 2 without a remainder, then iterate over the numbers and ensure that the number you are feeding the code is divisible by the 
-  number >= 2 && (2..number/2).none? { |n| number % n == 0}
+  number >= 2 && (2..number/2).none? { |iteratenumber| number % iteratenumber == 0}
 end   
